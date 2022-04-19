@@ -11,6 +11,8 @@
 		02E762A7280E4DFB00B82CC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E762A6280E4DFB00B82CC6 /* ContentView.swift */; };
 		02E762A9280E4DFD00B82CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E762A8280E4DFD00B82CC6 /* Assets.xcassets */; };
 		02E762AC280E4DFD00B82CC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E762AB280E4DFD00B82CC6 /* Preview Assets.xcassets */; };
+		02E762B4280E4E5500B82CC6 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E762B3280E4E5500B82CC6 /* Verification.swift */; };
+		02E762B7280E503E00B82CC6 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E762B6280E503E00B82CC6 /* OTPViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		02E762A6280E4DFB00B82CC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02E762A8280E4DFD00B82CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02E762AB280E4DFD00B82CC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02E762B3280E4E5500B82CC6 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		02E762B6280E503E00B82CC6 /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		02E762A3280E4DFB00B82CC6 /* AutoOTP */ = {
 			isa = PBXGroup;
 			children = (
+				02E762B5280E4FBC00B82CC6 /* ViewModel */,
+				02E762B2280E4E1D00B82CC6 /* View */,
 				02E762A4280E4DFB00B82CC6 /* AutoOTPApp.swift */,
 				02E762A6280E4DFB00B82CC6 /* ContentView.swift */,
 				02E762A8280E4DFD00B82CC6 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				02E762AB280E4DFD00B82CC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02E762B2280E4E1D00B82CC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02E762B3280E4E5500B82CC6 /* Verification.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02E762B5280E4FBC00B82CC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02E762B6280E503E00B82CC6 /* OTPViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E762B7280E503E00B82CC6 /* OTPViewModel.swift in Sources */,
+				02E762B4280E4E5500B82CC6 /* Verification.swift in Sources */,
 				02E762A7280E4DFB00B82CC6 /* ContentView.swift in Sources */,
 				02E762A5280E4DFB00B82CC6 /* AutoOTPApp.swift in Sources */,
 			);
